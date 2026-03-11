@@ -1,0 +1,16 @@
+binnacle/matchbox/*
+binnacle/tftpboot
+binnacle/dnsmasq/static-leases.conf
+binnacle/talosconfig/*
+secrets.yaml
+kubeconfig
+talsecret.yaml
+binnacle/clusterconfig/*
+
+# --- Temporary/Lock Files ---
+# Makefile logs or state tracking
+.make-state
+*.tmp
+*.log
+
+
